@@ -10,7 +10,7 @@
 python3 apps/dsl-pet/scripts/build.py
 ```
 
-脚本使用系统 Swift 编译器构建原生 AppKit 应用，读取本目录的 `assets/`，复制控制桥和回复桥，生成 `dist/DSLPet.app` 并进行 ad-hoc 签名，最后运行内置状态机自检。构建前必须自行提供有权使用的动画素材；本公开仓库不附带原项目的视觉素材。
+脚本使用系统 Swift 编译器构建原生 AppKit 应用，读取本目录的 `assets/`，复制控制桥和回复桥，生成 `dist/DSLPet.app` 并进行 ad-hoc 签名，最后运行内置状态机自检。构建时会自动读取仓库附带的大肥鱼动画素材，打包进应用。
 
 当前应用版本 0.4.1，Bundle Build 10。已验证 macOS Apple Silicon，最低系统版本 macOS 13。无图片生成服务或 OpenCV 运行依赖。
 
@@ -36,7 +36,7 @@ python3 apps/dsl-pet/scripts/build.py
 
 ## 素材
 
-素材目录需要包含 `animations.json`、`待机.png`，以及每个动画对应的时序 JSON 和 `逐帧PNG/frame-01.png` 等帧图。格式见 `Sources/Engine.swift` 中的 `Animation` 定义。原项目的角色素材不在本仓库中；请只添加你有权使用的素材。素材权利独立于代码的 MIT 许可。
+`assets/` 已包含待机图、25 组大肥鱼动画帧和时序配置。角色美术为本项目作者创作，和代码的 MIT 许可分开管理；详见根目录 `ASSET_RIGHTS.md`。
 
 ## 安装配套应用和插件
 

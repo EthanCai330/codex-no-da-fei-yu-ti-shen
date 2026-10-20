@@ -25,8 +25,8 @@ https://github.com/EthanCai330/codex-no-da-fei-yu-ti-shen
 
 リポジトリの説明を読んで、プロジェクトを独立したディレクトリにダウンロードし、プラグインマーケットプレイスを登録して dsl-pet をインストールしてください。
 既存の公式 Pets、選択中のペット、その他のプラグイン設定は維持し、変更や置き換えをしないでください。
-アニメーション素材がなくデスクトップペットをビルドできない場合は、必要な利用許諾済み素材を教えてください。再配布が許可されていない画像やアニメーションを他のリポジトリからコピーしないでください。
-素材が揃っていればペットを起動し、プラグインとの接続を確認して、Codex の再読み込みが必要か教えてください。
+大肥魚のアニメーション素材はリポジトリに含まれています。ドキュメントに従ってデスクトップペットをビルドしてください。
+ペットを起動し、プラグインとの接続を確認して、Codex の再読み込みが必要か教えてください。
 ```
 
 ## ビルド要件
@@ -40,21 +40,7 @@ cp -R apps/dsl-pet/dist/DSLPet.app "$HOME/Applications/"
 open "$HOME/Applications/DSLPet.app"
 ```
 
-ビルド前に `apps/dsl-pet/assets/` に `animations.json`、`待机.png`、各アニメーションの `animation.json` とフレーム PNG を用意してください。本リポジトリのイラストはキャラクターのメインビジュアルであり、プレイヤーに必要なアニメーションフレームの代わりにはなりません。
-
-```text
-apps/dsl-pet/assets/
-├── animations.json
-├── 待机.png
-└── 01-example/
-    ├── animation.json
-    └── 逐帧PNG/
-        ├── frame-01.png
-        └── frame-02.png
-```
-
-`animation.json` の形式は `apps/dsl-pet/Sources/Engine.swift` の `Animation` 定義と、プラグインの状態ルールを参照してください。追加する素材の利用権を必ず確認してください。
-
+リポジトリには `apps/dsl-pet/assets/` に待機画像、25 種類のアニメーションフレームとタイミング設定が含まれています。上記のビルドコマンドを実行すると、素材がアプリにパッケージされます。
 ## Codex プラグインのインストール
 
 Mac 上の Codex ローカルチャットで、このリポジトリをプラグインマーケットプレイスとして登録し、`dsl-pet` をインストールします。
@@ -64,13 +50,13 @@ codex plugin marketplace add https://github.com/EthanCai330/codex-no-da-fei-yu-t
 codex plugin add dsl-pet@q-ai-local
 ```
 
-ローカルのチェックアウトを登録する場合は、リポジトリのルートで `codex plugin marketplace add .` を実行してください。コマンドは Codex クライアントのバージョンによって異なる場合があります。
+ローカルのチェックアウトを登録する場合は、リポジトリのルートで `codex plugin marketplace add .` を実行してください。コマンドは Codex クライアントのバージョンによって異なる場合があります。大肥魚の素材一式はリポジトリに含まれているため、追加の画像は不要です。
 
 ## ソースコードのライセンスと作品のクレジット
 
-プレイヤーとプラグインのコードは [Knox-zki/fat-fish-at-gpt](https://github.com/Knox-zki/fat-fish-at-gpt) を基に改変し、[MIT License](LICENSE) に基づいて公開しています。大肥魚のキャラクターデザインと `docs/images/big-fat-fish.png` のメインビジュアルは本プロジェクトの作者が制作したもので、元プロジェクトのキャラクター素材をコピーしたものではありません。
+プレイヤーとプラグインのコードは [Knox-zki/fat-fish-at-gpt](https://github.com/Knox-zki/fat-fish-at-gpt) を基に改変し、[MIT License](LICENSE) に基づいて公開しています。大肥魚のキャラクターデザイン、`docs/images/big-fat-fish.png` のメインビジュアルとデスクトップペットのアニメーションは本プロジェクトの作者が制作したもので、元プロジェクトのキャラクター素材をコピーしたものではありません。
 
-MIT ライセンスはソースコードに適用され、大肥魚の美術素材の再利用許可を自動的に与えるものではありません。Codex、ChatGPT など第三者の名称や標章は各権利者に帰属します。
+MIT ライセンスはソースコードに適用されます。作者は、本プロジェクトの一部として大肥魚の美術素材を複製、配布、実行することを許可します。本プロジェクト外での単独利用や改変には作者の許可が必要です。Codex、ChatGPT など第三者の名称や標章は各権利者に帰属します。
 
 ---
 
