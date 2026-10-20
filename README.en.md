@@ -4,7 +4,9 @@
 
 An independent macOS desktop companion and Codex plugin. It can run alongside Codex's official Pets and appears as a separate floating desktop pet.
 
-This repository contains buildable application and plugin source code. The original character images and animations are not included because their redistribution was not authorized. To run the pet, provide assets that you are entitled to use under `apps/dsl-pet/assets/`, following the format below. This is an unofficial community project and does not replace OpenAI's official Pets.
+Big Fat Fish's character design and the key illustration below were made for this project. The desktop player also needs animation frames and timing configuration to run; see the build instructions for the required format. This is an unofficial community project and does not replace OpenAI's official Pets.
+
+<p align="center"><img src="docs/images/big-fat-fish.png" alt="Big Fat Fish, a blue-haired mermaid maid desktop pet" width="420"></p>
 
 ## Features
 
@@ -38,7 +40,7 @@ cp -R apps/dsl-pet/dist/DSLPet.app "$HOME/Applications/"
 open "$HOME/Applications/DSLPet.app"
 ```
 
-Before building, provide `animations.json`, `待机.png`, and each animation's `animation.json` and frame PNG files under `apps/dsl-pet/assets/`:
+Before building, provide `animations.json`, `待机.png`, and each animation's `animation.json` and frame PNG files under `apps/dsl-pet/assets/`. The illustration in this repository is the custom character key art and does not replace the animation frames required by the player:
 
 ```text
 apps/dsl-pet/assets/
@@ -64,11 +66,11 @@ codex plugin add dsl-pet@q-ai-local
 
 To register a local checkout instead, run `codex plugin marketplace add .` from the repository root. Exact commands may vary by Codex client version.
 
-## Code license and attribution
+## Code license and artwork attribution
 
-The source code in this repository is distributed under the original project's [MIT License](LICENSE). The application and plugin code are derived from [Knox-zki/fat-fish-at-gpt](https://github.com/Knox-zki/fat-fish-at-gpt); this is an independently maintained community fork.
+The player and plugin code are adapted from [Knox-zki/fat-fish-at-gpt](https://github.com/Knox-zki/fat-fish-at-gpt) and distributed under the [MIT License](LICENSE). Big Fat Fish's character design and the key art at `docs/images/big-fat-fish.png` were created by this project's author and are not copied from the upstream project's character assets.
 
-The original project states that character designs, images, animations, logos, screenshots, and other visual assets are outside the MIT license and are not licensed for use or redistribution. Those assets are therefore omitted here. The code license in this repository does not cover assets supplied by users. Third-party names and marks belong to their respective rights holders.
+The MIT license applies to source code and does not automatically grant permission to reuse Big Fat Fish artwork. Third-party names and marks such as Codex and ChatGPT belong to their respective rights holders.
 
 ---
 

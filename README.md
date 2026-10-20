@@ -4,7 +4,9 @@
 
 这是一个面向 macOS 的 Codex 桌宠插件与独立悬浮桌宠应用。它可以与 Codex 的官方 Pets 同时使用，独立显示在桌面上。
 
-本仓库发布的是可构建的应用和插件源代码。原项目角色图片和动画素材未获再分发授权，因此未包含在本仓库中。要运行桌宠，请自行准备有权使用的素材，并按下方格式放入 `apps/dsl-pet/assets/`。本项目不代表 OpenAI 官方产品，也不替代官方 Pets。
+大肥鱼的角色设定和下方主视觉图是为本项目制作的自定义作品。桌宠播放器还需要逐帧动画和时序配置才能运行，相关格式见构建说明。本项目是社区制作，并非 OpenAI 官方产品，也不替代官方 Pets。
+
+<p align="center"><img src="docs/images/big-fat-fish.png" alt="大肥鱼：蓝发、鱼尾的女仆风桌宠" width="420"></p>
 
 ## 功能
 
@@ -38,7 +40,7 @@ cp -R apps/dsl-pet/dist/DSLPet.app "$HOME/Applications/"
 open "$HOME/Applications/DSLPet.app"
 ```
 
-构建前，需在 `apps/dsl-pet/assets/` 提供 `animations.json`、`待机.png`，以及每个动画目录下的 `animation.json` 和逐帧 PNG。结构示例：
+构建前，需在 `apps/dsl-pet/assets/` 提供 `animations.json`、`待机.png`，以及每个动画目录下的 `animation.json` 和逐帧 PNG。当前仓库的展示图是大肥鱼的自定义主视觉，不能代替播放器所需的动画帧。结构示例：
 
 ```text
 apps/dsl-pet/assets/
@@ -64,11 +66,11 @@ codex plugin add dsl-pet@q-ai-local
 
 如果你使用本地仓库路径注册市场，请在项目根目录运行 `codex plugin marketplace add .`。具体命令取决于 Codex 客户端版本。由于本公开仓库不含动画素材，桌宠需要在构建前补充自有素材。
 
-## 代码许可与来源
+## 代码许可与作品来源
 
-本仓库中的源代码按原项目的 [MIT License](LICENSE) 发布。插件及应用代码源自 [Knox-zki/fat-fish-at-gpt](https://github.com/Knox-zki/fat-fish-at-gpt)，本项目为独立维护的社区衍生项目。
+播放器及插件代码基于 [Knox-zki/fat-fish-at-gpt](https://github.com/Knox-zki/fat-fish-at-gpt) 改造，并按 [MIT License](LICENSE) 发布。大肥鱼的角色设定和 `docs/images/big-fat-fish.png` 主视觉图由本项目作者自行创作，不是从上游项目复制的角色素材。
 
-原项目已声明角色形象、图片、动画、Logo、截图及其他视觉素材不在 MIT 许可范围内，且没有授予使用或再分发许可。因此本仓库不包含这些素材；本仓库的代码许可也不涵盖使用者自行添加的素材。第三方名称与标识归各自权利人所有。
+MIT 许可适用于源代码，不自动授予大肥鱼角色美术素材的再利用许可。Codex、ChatGPT 等第三方名称与标识归各自权利人所有。
 
 ---
 

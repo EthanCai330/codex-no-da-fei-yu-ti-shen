@@ -1,25 +1,17 @@
-# 素材权利声明
+# 代码与美术素材权利说明
 
-本项目的源代码采用 MIT 许可证。MIT 许可证不适用于角色形象、角色图片、动画逐帧 PNG、Logo、截图及其他视觉素材。
+播放器和插件的源代码基于 [Knox-zki/fat-fish-at-gpt](https://github.com/Knox-zki/fat-fish-at-gpt) 改造，保留其 MIT 许可和版权声明。该代码许可不代表本项目使用了上游项目的角色美术素材。
 
-**本项目不对素材授予使用、复制、修改、再分发或商业使用的许可。** 素材在公开仓库中的展示或提供，不代表对其授予任何使用许可，也不代表对其中可能涉及的第三方权利主张所有权。
+大肥鱼的角色设定以及 `docs/images/big-fat-fish.png` 展示图由本项目作者自行创作，并为本项目制作。它们不是从上游项目复制的素材，也无需上游作者授权才能在本项目中展示。
 
-上述范围包括 `apps/dsl-pet/assets/` 中的素材，以及 `docs/previews/` 中的图片、动画预览和其他视觉内容。第三方名称与标识的权利归各自权利人所有。
-
-**若侵犯了第三方权利，请与我联系。**
-
-联系渠道：在 [GitHub Issues](https://github.com/Knox-zki/fat-fish-at-gpt/issues) 中提出，或通过 [GitHub 个人主页](https://github.com/Knox-zki) 上提供的联系方式联系维护者。请说明相关素材、权利依据及希望采取的处理方式。
+根目录 [LICENSE](LICENSE) 中的 MIT 许可适用于源代码，不自动扩展到角色美术素材。除非作者另行发布美术素材许可，展示图仅作为本项目的一部分公开展示。Codex、ChatGPT 等第三方名称和标识归各自权利人所有。
 
 ---
 
-# Asset Rights Statement
+# Code and Artwork Rights
 
-The source code is licensed under MIT. The MIT license does not apply to character designs, character images, animation frames, logos, screenshots, or other visual assets.
+The player and plugin source code are adapted from [Knox-zki/fat-fish-at-gpt](https://github.com/Knox-zki/fat-fish-at-gpt), with its MIT license and copyright notice preserved. That code attribution does not mean this project uses the upstream project's character artwork.
 
-**No permission is granted by this project to use, copy, modify, redistribute, or commercially exploit the visual assets.** Their display or availability in a public repository does not grant a license or assert ownership of any third-party rights that may be involved.
+Big Fat Fish's character design and the illustration at `docs/images/big-fat-fish.png` were created by this project's author for this project. They are not copied from the upstream project and do not require the upstream author's permission to appear here.
 
-This scope includes the visual assets in `apps/dsl-pet/assets/`, the images and animation previews in `docs/previews/`, and other visual content. Third-party names and marks belong to their respective rights holders.
-
-**If any material infringes third-party rights, please contact me.**
-
-Contact: open an [issue on GitHub](https://github.com/Knox-zki/fat-fish-at-gpt/issues), or use the contact information provided on my [GitHub profile](https://github.com/Knox-zki). Please identify the material, the basis of your rights claim, and your requested action.
+The MIT license in the root [LICENSE](LICENSE) applies to source code and does not automatically extend to character artwork. Unless the author publishes a separate artwork license, the illustration is included for display as part of this project. Third-party names and marks such as Codex and ChatGPT belong to their respective rights holders.
