@@ -54,7 +54,7 @@ codex plugin add dsl-pet@q-ai-local
 
 ## 代码许可与作品来源
 
-播放器及插件代码基于 [Knox-zki/fat-fish-at-gpt](https://github.com/Knox-zki/fat-fish-at-gpt) 改造，并按 [MIT License](LICENSE) 发布。大肥鱼的角色设定、`docs/images/big-fat-fish.png` 主视觉图和桌宠动画均由本项目作者自行创作，不是从上游项目复制的角色素材。
+本项目代码按 [MIT License](LICENSE) 发布。大肥鱼的角色设定、`docs/images/big-fat-fish.png` 主视觉图和桌宠动画均由本项目作者创作。
 
 MIT 许可适用于源代码。作者允许大肥鱼美术素材随本项目复制、分发和运行；脱离本项目单独使用或改编需另行取得作者许可。Codex、ChatGPT 等第三方名称与标识归各自权利人所有。
 

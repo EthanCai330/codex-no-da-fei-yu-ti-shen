@@ -54,7 +54,7 @@ To register a local checkout instead, run `codex plugin marketplace add .` from 
 
 ## Code license and artwork attribution
 
-The player and plugin code are adapted from [Knox-zki/fat-fish-at-gpt](https://github.com/Knox-zki/fat-fish-at-gpt) and distributed under the [MIT License](LICENSE). Big Fat Fish's character design and the key art at `docs/images/big-fat-fish.png` were created by this project's author and are not copied from the upstream project's character assets.
+This project is distributed under the [MIT License](LICENSE). Big Fat Fish's character design, the key art at `docs/images/big-fat-fish.png`, and the desktop pet animations were created by this project's author.
 
 The MIT license applies to source code. The author permits the Big Fat Fish artwork to be copied, distributed, and run as part of this project; separate use or adaptation outside the project requires the author’s permission. Third-party names and marks such as Codex and ChatGPT belong to their respective rights holders.
 
