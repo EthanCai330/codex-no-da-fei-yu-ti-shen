@@ -1,8 +1,12 @@
 {
-  "name":"dsl-pet",
-  "version":"0.2.1",
-  "description":"高清小 DSL 悬浮桌宠：21 个动作、情境调度、终帧保持、回复气泡、消息通知和打开原会话。",
-  "skills":"./skills/",
-  "mcpServers":"./.mcp.json",
-  "interface":{"displayName":"小 DSL 桌宠","shortDescription":"用本地事件控制高清悬浮桌宠","category":"Productivity"}
+  "name": "dsl-pet",
+  "version": "0.2.1",
+  "description": "Codex 大肥鱼桌宠：25 组原创动画、16 向视线、任务状态互动、回复气泡与消息通知。",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Codex 大肥鱼桌宠",
+    "shortDescription": "在 Codex 中控制原创大肥鱼悬浮桌宠",
+    "category": "Productivity"
+  }
 }

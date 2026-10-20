@@ -1,12 +1,24 @@
-# codexの大肥鱼替身 🐟
+# Codex 大肥鱼桌宠｜codexの大肥鱼替身 🐟
 
 **简体中文** · [English](README.en.md) · [日本語](README.ja.md)
 
-这是一个面向 macOS 的 Codex 桌宠插件与独立悬浮桌宠应用。它可以与 Codex 的官方 Pets 同时使用，独立显示在桌面上。
+**Codex 大肥鱼**是一个 macOS Codex 桌宠项目，包含可在 Codex 官方 Pets 中选择的大肥鱼宠物，以及一个连接 Codex 插件的独立悬浮桌面应用。两种方式可按喜好使用。
 
 大肥鱼的角色设定、主视觉图和桌宠动画均为本项目制作的自定义作品。仓库已包含播放器所需素材，构建后即可运行同款桌宠。本项目是社区制作，并非 OpenAI 官方产品，也不替代官方 Pets。
 
-<p align="center"><img src="docs/images/big-fat-fish.png" alt="大肥鱼：蓝发、鱼尾的女仆风桌宠" width="420"></p>
+<p align="center"><img src="docs/images/big-fat-fish.png" alt="Codex 大肥鱼桌宠：蓝发鱼尾女仆风角色" width="360"></p>
+
+## 动作预览
+
+| 待机 | 工作 | 等待输入 | 任务完成 | 拖动 | 出场 | 失败 | 悬停 |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| ![Codex 大肥鱼待机动画](docs/images/preview/idle.gif) | ![Codex 大肥鱼工作动画](docs/images/preview/running.gif) | ![Codex 大肥鱼等待动画](docs/images/preview/waiting.gif) | ![Codex 大肥鱼完成动画](docs/images/preview/review.gif) | ![Codex 大肥鱼拖动动画](docs/images/preview/running-right.gif) | ![Codex 大肥鱼出场动画](docs/images/preview/waving.gif) | ![Codex 大肥鱼失败动画](docs/images/preview/failed.gif) | ![Codex 大肥鱼悬停动画](docs/images/preview/jumping.gif) |
+
+## Codex Pets 宠物与桌面应用
+
+仓库提供两种使用方式：安装 V2 宠物图集后，在 Codex 的 Pets 设置中选择“大肥鱼”；或者安装 `dsl-pet` 插件并运行独立桌宠应用。它们可以同时使用，不会覆盖已有官方 Pets 或当前选择。
+
+动画包含待机呼吸与眨眼、拖动时左右跑动、首次显示挥手、悬停跳跃、任务工作、等待用户输入、任务完成、失败反应，以及 16 向视线跟随。
 
 ## 功能
 
@@ -61,3 +73,15 @@ MIT 许可适用于源代码。作者允许大肥鱼美术素材随本项目复�
 ---
 
 [English](README.en.md) · [日本語](README.ja.md)
+
+## 官方 Pets 安装
+
+将 [V2 宠物图集](docs/images/big-fat-fish-spritesheet.webp)、[宠物配置](docs/images/pet.json) 和图集一同放入 Codex 的自定义宠物目录：
+
+```text
+~/.codex/pets/codex-big-fat-fish/
+├── pet.json
+└── spritesheet.webp
+```
+
+将图集文件命名为 `spritesheet.webp`。完成后重启 Codex，并在 Pets 设置中选择“Codex 大肥鱼”。更新同 ID 宠物时，替换此目录后完全退出并重新打开 Codex，以刷新图集缓存。
