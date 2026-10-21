@@ -6,6 +6,20 @@
 
 Big Fat Fish's character design, key illustration, and desktop pet animations were created for this project. The repository includes the frames and timing configuration needed to build and run the same pet. This is an unofficial community project and does not replace OpenAI's official Pets.
 
+## Ask Codex to install it
+
+Copy this prompt into a **local Codex chat on your Mac**:
+
+```text
+Please install the “codexの大肥鱼替身” Codex plugin:
+https://github.com/EthanCai330/codex-no-da-fei-yu-ti-shen
+
+Read the repository docs, download the project into a separate directory, register its plugin marketplace, and install dsl-pet.
+Preserve my existing official Pets, selected pet, and other plugin settings. Do not modify or replace them.
+The repository includes the Big Fat Fish animation assets. Follow the instructions to build and package the desktop pet.
+Launch the pet, check that the plugin connects to it, and tell me whether Codex needs to be reloaded.
+```
+
 <p align="center"><img src="docs/images/big-fat-fish.png" alt="Codex Big Fat Fish desktop pet, blue-haired fish-tailed maid character" width="360"></p>
 
 ## Animation preview
@@ -26,20 +40,6 @@ Animations include breathing and blinking at rest, left and right movement while
 - Floats above ordinary windows and supports dragging, resizing, hiding, and animation previews.
 - Shows Codex summaries in message bubbles and provides a way back to Codex.
 - Sends task updates at important transitions; it does not automatically monitor every chat.
-
-## Ask Codex to install it
-
-Copy this prompt into a **local Codex chat on your Mac**:
-
-```text
-Please install the “codexの大肥鱼替身” Codex plugin:
-https://github.com/EthanCai330/codex-no-da-fei-yu-ti-shen
-
-Read the repository docs, download the project into a separate directory, register its plugin marketplace, and install dsl-pet.
-Preserve my existing official Pets, selected pet, and other plugin settings. Do not modify or replace them.
-The repository includes the Big Fat Fish animation assets. Follow the instructions to build and package the desktop pet.
-Launch the pet, check that the plugin connects to it, and tell me whether Codex needs to be reloaded.
-```
 
 ## Build requirements
 
